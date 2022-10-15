@@ -1,0 +1,24 @@
+.mapList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 60px 0;
+  @include breakpoint(xs) {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 60px 20px;
+  }
+  .home__list-item {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #e9e9e9;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .home__list-title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+a {
+  color: unset !important;
+}
+
+.home {
+  &__container {
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  &__title {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  &__subtitle {
+    margin-top: 15px;
+  }
+  &__down-icon {
+    position: absolute;
+    bottom: 30px;
+    animation: MoveUpDown 1s linear infinite;
+  }
+  &__list-container {
+    @include apply-container;
+    min-height: 100vh;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 30px;
+  }
+  50% {
+    bottom: 40px;
+  }
+}
