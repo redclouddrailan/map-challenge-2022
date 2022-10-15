@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import points from 'data/points.json';
+// import points from 'data/points.json';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
