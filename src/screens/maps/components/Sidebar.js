@@ -15,7 +15,6 @@ export default function Sidebar() {
     const extractData = mapListdata.filter(
       (res) => res.url === location.pathname
     );
-    console.log(extractData);
     dispatch(setDetails(extractData[0]));
   }, []);
   return (
