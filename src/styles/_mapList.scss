@@ -4,7 +4,8 @@
   gap: 20px;
   padding: 60px 0;
   @include breakpoint(xs) {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-flow: column;
     padding: 60px 20px;
   }
   .home__list-item {
@@ -16,6 +17,8 @@
     background: #e9e9e9;
     padding: 20px;
     flex-direction: column;
+    width: 100%;
+    white-space: unset !important;
   }
   .home__list-title {
     font-weight: bold;

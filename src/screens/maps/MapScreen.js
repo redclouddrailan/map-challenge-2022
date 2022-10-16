@@ -1,24 +1,11 @@
 import React from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
-import { Button } from 'antd';
+import { Outlet } from 'react-router-dom';
+import Sidebar from 'screens/maps/components/Sidebar';
 
 export default function MapScreen() {
-  const navigate = useNavigate();
   return (
     <div className='map'>
-      <div className='map__nav'>
-        <div className='map__nav-title'>30-day Map Challenge 2022</div>
-        <div className='map__nav-btn-grp'>
-          <Button
-            type='primary'
-            onClick={() => {
-              navigate('/');
-            }}
-          >
-            Back to List
-          </Button>
-        </div>
-      </div>
+      <Sidebar />
       <Outlet />
     </div>
   );
