@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { Select } from 'antd';
 import poverty from 'data/poverty.json';
-import { filter, get } from 'lodash';
+import { get } from 'lodash';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 // import { processpolygons } from './functions';
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
@@ -67,7 +67,6 @@ export default function Point() {
         source: 'polygons',
         paint: {
           'fill-outline-color': '#fff',
-          'fill-opacity': 1,
           'fill-color': [
             'interpolate',
             ['linear'],
