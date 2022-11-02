@@ -17,3 +17,26 @@
   width: 100%;
   height: 100vh;
 }
+
+.map__legend {
+  position: absolute;
+  z-index: 99;
+  background: white;
+  padding: 20px;
+  bottom: 50px;
+  right: 20px;
+  border-radius: 5px;
+  min-width: 150px;
+}
+
+.map__legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.map__legend-item-value {
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+}

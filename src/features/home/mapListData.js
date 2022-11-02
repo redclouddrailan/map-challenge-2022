@@ -1,12 +1,14 @@
 const mapListdata = [
   {
     label: 'Point',
-    description: 'Put interesting map description here',
+    description:
+      'A map showing all the operating healthsites in the Philippines. The data used comes from the https://data.humdata.org/ ',
     url: '/map/point',
   },
   {
     label: 'Line',
-    description: 'Put interesting map description here',
+    description:
+      'A map showing all the river networks of the Philippines. Data source: NAMRIA',
     url: '/map/line',
   },
   {
