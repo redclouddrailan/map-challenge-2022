@@ -25,6 +25,10 @@ a {
     font-size: 50px;
     font-weight: bold;
   }
+  &__list-desc {
+    width: 200px;
+    line-break: auto;
+  }
   &__subtitle {
     margin-top: 15px;
   }

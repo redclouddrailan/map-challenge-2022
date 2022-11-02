@@ -13,7 +13,8 @@ const mapListdata = [
   },
   {
     label: 'Polygons',
-    description: 'Put interesting map description here',
+    description:
+      'A map showing the poverty indexes of different provinces for years 2006, 2009 and 2012. Data was from https://data.humdata.org',
     url: '/map/polygons',
   },
   {

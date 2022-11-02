@@ -40,3 +40,22 @@
   height: 15px;
   border-radius: 5px;
 }
+
+.tooltip {
+  position: absolute;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 300px;
+  font-size: 12px;
+  line-height: 16px;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 9;
+  top: 10px;
+  right: 20px;
+}
