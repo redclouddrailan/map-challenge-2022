@@ -19,7 +19,8 @@ const mapListdata = [
   },
   {
     label: 'Colour Friday: Green',
-    description: 'Put interesting map description here',
+    description:
+      'This layer contains information about the changes in tree cover density - by second-level administrative area - estimated during the Integrated Context Analysis (ICA) run in the Philippines in 2014. Data source: Landsat Vegetation Continuous Fields (VCF), 2000-2010. It should be noted that, in absence of livelihood data, land cover was used as a proxy for rural livelihoods. The main indicator used for the analysis was the average provincial trend of tree cover change in the last ten years. Data from: https://data.humdata.org/dataset/wfp-geonode-ica-philippines-tree-cover-change',
     url: '/map/green',
   },
   {

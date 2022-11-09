@@ -28,6 +28,10 @@ a {
   &__list-desc {
     width: 200px;
     line-break: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   &__subtitle {
     margin-top: 15px;
