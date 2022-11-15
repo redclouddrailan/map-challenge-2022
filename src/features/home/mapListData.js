@@ -25,7 +25,8 @@ const mapListdata = [
   },
   {
     label: 'Ukraine',
-    description: 'Put interesting map description here',
+    description:
+      'Ukraine number of Deaths from 2014-2021 (Pre Ukraine Russia War) Data from: https://ucdp.uu.se/country/369',
     url: '/map/ukraine',
   },
   {

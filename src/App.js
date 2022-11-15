@@ -5,6 +5,7 @@ import MapScreen from 'screens/maps/MapScreen';
 import Point from 'screens/maps/Point';
 import Line from 'screens/maps/Line';
 import Polygons from 'screens/maps/Polygons';
+import Ukraine from 'screens/maps/Ukraine';
 import Green from 'screens/maps/Green';
 import 'antd/dist/antd.css';
 import 'styles/index.scss';
@@ -20,6 +21,7 @@ function App() {
           <Route path='line' element={<Line />} />
           <Route path='polygons' element={<Polygons />} />
           <Route path='green' element={<Green />} />
+          <Route path='ukraine' element={<Ukraine />} />
         </Route>
       </Route>
     </Routes>
