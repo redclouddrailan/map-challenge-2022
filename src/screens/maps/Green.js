@@ -42,7 +42,7 @@ export default function Green() {
   ];
 
   const getColor = (context) => {
-    if (context === 'Strong increase' || context == 'Moderate increase') {
+    if (context === 'Strong increase' || context === 'Moderate increase') {
       return <span style={{ color: 'green' }}>{context}</span>;
     } else if (context === 'No Change') {
       return <span style={{ color: 'grey' }}>{context}</span>;
