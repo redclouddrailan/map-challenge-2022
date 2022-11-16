@@ -31,7 +31,8 @@ const mapListdata = [
   },
   {
     label: 'Network',
-    description: 'Put interesting map description here',
+    description:
+      'A map showing all the river networks of the Philippines, but with added styling, played with line-styles of mapbox GL. Data source: NAMRIA',
     url: '/map/network',
   },
   {
