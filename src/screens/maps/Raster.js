@@ -16,6 +16,7 @@ export default function Raster() {
       style: 'mapbox://styles/redclouddrailan/cl8k4fylm002x14r3ml25cotg',
       center: [122, 13],
       zoom: 4.9,
+      projection: 'equirectangular',
     });
     map.current.on('load', () => {
       map.current.getCanvas().style.cursor = 'default';
