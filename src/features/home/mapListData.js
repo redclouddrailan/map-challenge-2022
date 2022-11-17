@@ -37,7 +37,7 @@ const mapListdata = [
   },
   {
     label: 'Raster',
-    description: 'Put interesting map description here',
+    description: 'A map showcasing Diwata-2 capture around Ilocos Norte',
     url: '/map/raster',
   },
   {
