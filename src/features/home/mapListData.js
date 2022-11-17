@@ -42,7 +42,7 @@ const mapListdata = [
   },
   {
     label: 'Data: OpenStreetMap',
-    description: 'Put interesting map description here',
+    description: 'Road networks of Camarines Norte from OSM',
     url: '/map/osm',
   },
   {

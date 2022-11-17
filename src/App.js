@@ -9,6 +9,7 @@ import Ukraine from 'screens/maps/Ukraine';
 import Green from 'screens/maps/Green';
 import Network from 'screens/maps/Network';
 import Raster from 'screens/maps/Raster';
+import OSM from 'screens/maps/OSM';
 import 'antd/dist/antd.css';
 import 'styles/index.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
@@ -26,6 +27,7 @@ function App() {
           <Route path='ukraine' element={<Ukraine />} />
           <Route path='network' element={<Network />} />
           <Route path='raster' element={<Raster />} />
+          <Route path='osm' element={<OSM />} />
         </Route>
       </Route>
     </Routes>
