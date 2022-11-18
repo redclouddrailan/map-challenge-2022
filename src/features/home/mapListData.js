@@ -47,12 +47,13 @@ const mapListdata = [
   },
   {
     label: 'Space',
-    description: 'Put interesting map description here',
+    description: 'Meteor impacts from all around the world',
     url: '/map/space',
   },
   {
     label: 'A Bad Map',
-    description: 'Put interesting map description here',
+    description:
+      'This is an example of a bad map for me, the data represented by the circles in the Philippines is the poverty index in year 2012. Using circles is not appropriate for this kind of data, I believe  using the choropleth map is more suitable and the data is easily understood by the user.',
     url: '/map/bad-map',
   },
   {

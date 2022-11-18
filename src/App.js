@@ -10,6 +10,8 @@ import Green from 'screens/maps/Green';
 import Network from 'screens/maps/Network';
 import Raster from 'screens/maps/Raster';
 import OSM from 'screens/maps/OSM';
+import Space from 'screens/maps/Space';
+import Bad from 'screens/maps/Bad';
 import 'antd/dist/antd.css';
 import 'styles/index.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
@@ -28,6 +30,8 @@ function App() {
           <Route path='network' element={<Network />} />
           <Route path='raster' element={<Raster />} />
           <Route path='osm' element={<OSM />} />
+          <Route path='space' element={<Space />} />
+          <Route path='bad-map' element={<Bad />} />
         </Route>
       </Route>
     </Routes>

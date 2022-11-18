@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import points from 'data/healthsites.geojson';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 // import { processPoints } from './functions';
 import sample from 'data/sample-1.png';
