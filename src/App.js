@@ -12,6 +12,7 @@ import Raster from 'screens/maps/Raster';
 import OSM from 'screens/maps/OSM';
 import Space from 'screens/maps/Space';
 import Bad from 'screens/maps/Bad';
+import Red from 'screens/maps/Red';
 import 'antd/dist/antd.css';
 import 'styles/index.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
@@ -32,6 +33,7 @@ function App() {
           <Route path='osm' element={<OSM />} />
           <Route path='space' element={<Space />} />
           <Route path='bad-map' element={<Bad />} />
+          <Route path='red' element={<Red />} />
         </Route>
       </Route>
     </Routes>
