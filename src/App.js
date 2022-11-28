@@ -13,9 +13,13 @@ import OSM from 'screens/maps/OSM';
 import Space from 'screens/maps/Space';
 import Bad from 'screens/maps/Bad';
 import Red from 'screens/maps/Red';
+import Scale from 'screens/maps/Scale';
+import FiveMinute from 'screens/maps/FiveMinute';
 import 'antd/dist/antd.css';
 import 'styles/index.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import Hexagons from 'screens/maps/Hexagons';
+import Food from 'screens/maps/food';
 
 function App() {
   return (
@@ -34,6 +38,11 @@ function App() {
           <Route path='space' element={<Space />} />
           <Route path='bad-map' element={<Bad />} />
           <Route path='red' element={<Red />} />
+          <Route path='red' element={<Red />} />
+          <Route path='scale' element={<Scale />} />
+          <Route path='minute-map' element={<FiveMinute />} />
+          <Route path='hexagons' element={<Hexagons />} />
+          <Route path='food-drink' element={<Food />} />
         </Route>
       </Route>
     </Routes>

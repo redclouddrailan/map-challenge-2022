@@ -58,17 +58,19 @@ const mapListdata = [
   },
   {
     label: 'Colour Friday: Red',
-    description: 'Put interesting map description here',
+    description: 'Raster layer showing the Philippines elevation model',
     url: '/map/red',
   },
   {
     label: 'Scale',
-    description: 'Put interesting map description here',
+    description:
+      'Using the same point map, I have added a scale control to show the ratio of a distance on the map to the corresponding distance on the ground. ',
     url: '/map/scale',
   },
   {
     label: '5 minute map',
-    description: 'Put interesting map description here',
+    description:
+      'The 5-minute walk, also known as the “pedestrian shed” is considered to be the distance people are willing to walk before opting to drive. Based on the average walking speed a five-minute walk is represented by a radius measuring ¼ of a mile or about 400 meters. This rule of thumb is used to calculate public transport catchment areas or to determine access to destinations within neighborhoods.',
     url: '/map/minute-map',
   },
   {
@@ -78,7 +80,8 @@ const mapListdata = [
   },
   {
     label: 'Food/drink',
-    description: 'Put interesting map description here',
+    description:
+      'Location of resturants for food/drink in the province of Camarines Norte, data extracted from Open Street Map',
     url: '/map/food-drink',
   },
   {
