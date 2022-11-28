@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import points from 'data/healthsites.geojson';
 import * as turf from '@turf/turf';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 // import { processPoints } from './functions';
@@ -14,7 +13,6 @@ export default function FiveMinute() {
   var options = { steps: 50, units: 'kilometers', properties: { foo: 'bar' } };
   var circle = turf.circle(center, radius, options);
   var line = turf.lineString(...circle.geometry.coordinates);
-  console.log(line);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
