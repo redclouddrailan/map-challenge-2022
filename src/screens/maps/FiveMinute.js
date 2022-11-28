@@ -12,7 +12,6 @@ export default function FiveMinute() {
   var center = [120.9842, 14.5995];
   var options = { steps: 50, units: 'kilometers', properties: { foo: 'bar' } };
   var circle = turf.circle(center, radius, options);
-  var line = turf.lineString(...circle.geometry.coordinates);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -20,6 +19,7 @@ export default function FiveMinute() {
       container: mapContainer.current,
       style: 'mapbox://styles/redclouddrailan/cl8k4fylm002x14r3ml25cotg',
       center,
+
       zoom: 15,
     });
     map.current.on('load', () => {
