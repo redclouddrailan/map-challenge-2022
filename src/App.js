@@ -20,6 +20,8 @@ import 'styles/index.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import Hexagons from 'screens/maps/Hexagons';
 import Food from 'screens/maps/food';
+import Minimal from 'screens/maps/Minimal';
+import Blue from 'screens/maps/Blue';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
           <Route path='minute-map' element={<FiveMinute />} />
           <Route path='hexagons' element={<Hexagons />} />
           <Route path='food-drink' element={<Food />} />
+          <Route path='minimal' element={<Minimal />} />
+          <Route path='blue' element={<Blue />} />
         </Route>
       </Route>
     </Routes>

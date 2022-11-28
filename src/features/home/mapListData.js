@@ -86,7 +86,8 @@ const mapListdata = [
   },
   {
     label: 'Minimal',
-    description: 'Put interesting map description here',
+    description:
+      'This is my take on a minimal map, this is a custom vector tileset on mapbox.',
     url: '/map/minimal',
   },
   {
@@ -96,7 +97,8 @@ const mapListdata = [
   },
   {
     label: 'Colour Friday: blue',
-    description: 'Put interesting map description here',
+    description:
+      'The Mapbox Isochrone API allows you to request polygon or line features that show areas that are reachable within a specified amount of time from a location. In this map, I got the 15 minute distance interval from our home in Daet Camarines Norte.',
     url: '/map/blue',
   },
   {
