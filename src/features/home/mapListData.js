@@ -103,7 +103,7 @@ const mapListdata = [
   },
   {
     label: 'Globe',
-    description: 'Put interesting map description here',
+    description: `Here's a 3D representation of the Earth, this was made by the globe api of mapbox.`,
     url: '/map/globe',
   },
   {
