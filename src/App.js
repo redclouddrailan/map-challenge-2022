@@ -23,6 +23,8 @@ import Food from 'screens/maps/food';
 import Minimal from 'screens/maps/Minimal';
 import Blue from 'screens/maps/Blue';
 import Globe from 'screens/maps/Globe';
+import Favourites from 'screens/maps/Favourites';
+import Kontur from 'screens/maps/kontur';
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
           <Route path='minimal' element={<Minimal />} />
           <Route path='blue' element={<Blue />} />
           <Route path='globe' element={<Globe />} />
+          <Route path='favourite' element={<Favourites />} />
+          <Route path='kontur' element={<Kontur />} />
         </Route>
       </Route>
     </Routes>

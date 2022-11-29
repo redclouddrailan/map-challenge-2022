@@ -108,12 +108,14 @@ const mapListdata = [
   },
   {
     label: '"My Favourite"',
-    description: 'Put interesting map description here',
+    description:
+      'My favourite place - Camarines Norte, Im currently residing in Metro manila, so everytime I see a map of my hometown I feel elated.',
     url: '/map/favourite',
   },
   {
     label: 'Data: Kontur Population Dataset',
-    description: 'Put interesting map description here',
+    description:
+      'This is a geotiff image from HDX World Population data resolution of 30 arc-seconds (approximately 1km at the equator). Population density of the Philippines year 2020.',
     url: '/map/kontur',
   },
   {
