@@ -25,6 +25,7 @@ import Blue from 'screens/maps/Blue';
 import Globe from 'screens/maps/Globe';
 import Favourites from 'screens/maps/Favourites';
 import Kontur from 'screens/maps/kontur';
+import Null from 'screens/maps/Null';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
           <Route path='globe' element={<Globe />} />
           <Route path='favourite' element={<Favourites />} />
           <Route path='kontur' element={<Kontur />} />
+          <Route path='null' element={<Null />} />
         </Route>
       </Route>
     </Routes>

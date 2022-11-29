@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 // import { processPoints } from './functions';
-import sample from 'data/sample-1.png';
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 export default function Favourites() {
