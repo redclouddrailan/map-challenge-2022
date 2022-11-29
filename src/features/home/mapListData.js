@@ -120,7 +120,7 @@ const mapListdata = [
   },
   {
     label: 'NULL',
-    description: 'Put interesting map description here',
+    description: `Null Island is the point on the Earth's surface at zero degrees latitude and zero degrees longitude (0°N 0°E), i.e., where the prime meridian and the equator intersect. Null Island is located in international waters in the Atlantic Ocean, roughly 600 km off the coast of West Africa, in the Gulf of Guinea.[1] The exact point, using the WGS84 datum, is marked by the Soul buoy (named after the musical genre), a permanently-moored weather buoy.`,
     url: '/map/null',
   },
   {
