@@ -135,7 +135,8 @@ const mapListdata = [
   },
   {
     label: 'Colour Friday: 2 colours',
-    description: 'Put interesting map description here',
+    description:
+      'Using the poverty data, I have identified the provinces who are below the poverty class line 4, I have used the expression feature of mapbox to achieve this feat.',
     url: '/map/two-colours',
   },
   {

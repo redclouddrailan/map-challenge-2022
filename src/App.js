@@ -26,6 +26,8 @@ import Globe from 'screens/maps/Globe';
 import Favourites from 'screens/maps/Favourites';
 import Kontur from 'screens/maps/kontur';
 import Null from 'screens/maps/Null';
+import Movement from 'screens/maps/Movement';
+import TwoColours from 'screens/maps/TwoColours';
 
 function App() {
   return (
@@ -55,6 +57,8 @@ function App() {
           <Route path='favourite' element={<Favourites />} />
           <Route path='kontur' element={<Kontur />} />
           <Route path='null' element={<Null />} />
+          <Route path='movement' element={<Movement />} />
+          <Route path='two-colours' element={<TwoColours />} />
         </Route>
       </Route>
     </Routes>
