@@ -28,7 +28,12 @@ import Kontur from 'screens/maps/kontur';
 import Null from 'screens/maps/Null';
 import Movement from 'screens/maps/Movement';
 import TwoColours from 'screens/maps/TwoColours';
-
+import Islands from 'screens/maps/Islands';
+import Fantasy from 'screens/maps/Fantasy';
+import Music from 'screens/maps/Music';
+import ThreeDimensional from 'screens/maps/ThreeDimensional';
+import OutofComfort from 'screens/maps/OutofComfort';
+import Remix from 'screens/maps/Remix';
 function App() {
   return (
     <Routes>
@@ -59,6 +64,12 @@ function App() {
           <Route path='null' element={<Null />} />
           <Route path='movement' element={<Movement />} />
           <Route path='two-colours' element={<TwoColours />} />
+          <Route path='islands' element={<Islands />} />
+          <Route path='fantasy' element={<Fantasy />} />
+          <Route path='music' element={<Music />} />
+          <Route path='3D' element={<ThreeDimensional />} />
+          <Route path='out-of-my-comfort-zone' element={<OutofComfort />} />
+          <Route path='remix' element={<Remix />} />
         </Route>
       </Route>
     </Routes>

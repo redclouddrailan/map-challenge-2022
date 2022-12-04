@@ -130,38 +130,42 @@ const mapListdata = [
   },
   {
     label: 'Fantasy',
-    description: 'Put interesting map description here',
+    description: `Here's my take on the fantasy map, a map of Hyrule! This map is from Legend of Zelda Breath of the wild game.`,
     url: '/map/fantasy',
   },
   {
     label: 'Colour Friday: 2 colours',
     description:
-      'Using the poverty data, I have identified the provinces who are below the poverty class line 4, I have used the expression feature of mapbox to achieve this feat.',
+      'Black and red, using the poverty data of the Philippines year 2020, I have identified the provinces who are below the poverty class line 4, I have used the expression feature of mapbox to achieve this feat.',
     url: '/map/two-colours',
   },
   {
     label: 'Island(s)',
-    description: 'Put interesting map description here',
+    description:
+      'A map showing the Islands of the Philippines, using Stamen tiles vector style.',
     url: '/map/islands',
   },
   {
     label: 'Music',
-    description: 'Put interesting map description here',
+    description: 'Locations of music stores in the Philippines',
     url: '/map/music',
   },
   {
     label: '3D',
-    description: 'Put interesting map description here',
+    description:
+      'A 3D representation of buildings and establishments in Iloilo City.',
     url: '/map/3D',
   },
   {
     label: 'Out of my comfort zone',
-    description: 'Put interesting map description here',
+    description:
+      'Interpolation is one of the things that I dont quite understand, In this map I used interpolation to get the color way I want based on the square areas of the buildings in Iloilo.',
     url: '/map/out-of-my-comfort-zone',
   },
   {
     label: 'Remix',
-    description: 'Put interesting map description here',
+    description:
+      'Combining the different technologies, such as 3d map rendering, controlling the map camera, interpolation and dynamically setting the height of the buildings based on the data, heres my take on the Remix map challenge.',
     url: '/map/remix',
   },
 ];
