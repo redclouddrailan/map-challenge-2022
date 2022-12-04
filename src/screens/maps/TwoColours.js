@@ -1,14 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import points from 'data/poverty.json';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import { processPoints } from './functions';
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 export default function TwoColours() {
   const mapContainer = useRef(null);
   const map = useRef(null);
-
-  const colorValues = [1, '#e0f3db', 5, '#000149'];
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
